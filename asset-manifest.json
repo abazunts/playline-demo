@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/playline-demo/static/css/main.bc3187dd.chunk.css",
+    "main.js": "/playline-demo/static/js/main.557cfad6.chunk.js",
+    "main.js.map": "/playline-demo/static/js/main.557cfad6.chunk.js.map",
+    "runtime-main.js": "/playline-demo/static/js/runtime-main.f9fb0e64.js",
+    "runtime-main.js.map": "/playline-demo/static/js/runtime-main.f9fb0e64.js.map",
+    "static/js/2.a8d0f6ca.chunk.js": "/playline-demo/static/js/2.a8d0f6ca.chunk.js",
+    "static/js/2.a8d0f6ca.chunk.js.map": "/playline-demo/static/js/2.a8d0f6ca.chunk.js.map",
+    "static/js/3.7ae496f0.chunk.js": "/playline-demo/static/js/3.7ae496f0.chunk.js",
+    "static/js/3.7ae496f0.chunk.js.map": "/playline-demo/static/js/3.7ae496f0.chunk.js.map",
+    "index.html": "/playline-demo/index.html",
+    "static/css/main.bc3187dd.chunk.css.map": "/playline-demo/static/css/main.bc3187dd.chunk.css.map",
+    "static/js/2.a8d0f6ca.chunk.js.LICENSE.txt": "/playline-demo/static/js/2.a8d0f6ca.chunk.js.LICENSE.txt",
+    "static/media/google-play@3x.917d69b6.png": "/playline-demo/static/media/google-play@3x.917d69b6.png",
+    "static/media/ios-app@3x.696055d8.png": "/playline-demo/static/media/ios-app@3x.696055d8.png",
+    "static/media/logo@3x.2883d424.png": "/playline-demo/static/media/logo@3x.2883d424.png",
+    "static/media/progress@3x.c4d4fbfc.png": "/playline-demo/static/media/progress@3x.c4d4fbfc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9fb0e64.js",
+    "static/js/2.a8d0f6ca.chunk.js",
+    "static/css/main.bc3187dd.chunk.css",
+    "static/js/main.557cfad6.chunk.js"
+  ]
+}
