@@ -1,44 +1,61 @@
 .PlayersList {
-  background-color: #f8f8f8;
   height: auto;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
+  background-color: #012146;
 }
 
 .logo {
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
 }
 
-.logo img {
+img {
   width: 100%;
 }
 
 /* WRAPPER START */
 .wrapper {
+  background-color: #f8f8f8;
   display: grid;
-  /* grid-template-columns: auto auto; */
   grid-template-rows: auto auto auto auto auto auto;
-  /* grid-template-rows: auto; */
+  border-radius: 3%;
+  width: 75%;
+  justify-self: center;
+  margin-top: 50px;
 }
 
 .progress {
   display: grid;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .headerText {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
+  text-transform: uppercase;
+  font-family: "Aldrich", sans-serif;
+  text-align: center;
 }
-.primaryText {
+.primaryText h1 {
+  font-size: 65px;
+  color: #464646;
+  margin: 5px;
 }
-.secondaryText {
+.secondaryText h2 {
+  font-size: 37px;
+  color: #737373;
+  margin: 5px;
 }
 
-.proTipText {
+.proTipText p {
   display: grid;
+  text-align: center;
+  color: #686868;
+  font-size: 30px;
 }
 
 .playersContainer {
@@ -46,33 +63,127 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   grid-template-rows: auto;
-  /* justify-items: stretch; */
-  /* align-items: center; */
-  /* align-content: center; */
+  justify-content: center;
 }
 
 .mainBtns {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: auto 8% auto;
+  grid-template-rows: auto;
+  grid-template-areas: "notifyMeBtn . depositBtn";
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.mainBtns button {
+  width: 350px;
+  height: 100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px #dfdfdf solid;
+  background-color: white;
+  box-shadow: 0px 0px 50px 5px #dfdfdf;
+}
+.mainBtns button:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+.mainBtns button:focus {
+  background-color: lightcoral;
+}
+.mainBtns button:active {
+  background-color: lightcyan;
+}
+.mainBtns img {
+  width: 50%;
+  height: auto;
+}
+.mainBtns p {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #686868;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
 }
 .notifyMeBtn {
+  grid-area: notifyMeBtn;
 }
 .depositBtn {
+  grid-area: depositBtn;
+}
+.depositBtn img {
+  width: 45%;
+  padding: 0;
+}
+.depositBtn p {
+  justify-self: left;
 }
 
 .appStoreBtns {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: auto 8% auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    ". downloadTheApp ."
+    "appStoreBtn . googlePlayBtn";
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.appStoreBtns button {
+  width: 200px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.appStoreBtns button:hover {
+  cursor: pointer;
+}
+.appStoreBtns img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .downloadTheApp {
+  text-align: center;
+  text-transform: uppercase;
+  color: #686868;
+  font-weight: 600;
+  font-size: 32px;
+  grid-area: downloadTheApp;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .appStoreBtn {
+  grid-area: appStoreBtn;
 }
 .googlePlayBtn {
+  grid-area: googlePlayBtn;
 }
 /* WRAPPER END */
 
 .nav {
+  margin-top: 50px;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding: 5px;
+}
+.nav a {
+  text-decoration: none;
+  color: #a1a1a1;
+  font-size: 24px;
+}
+.nav a:hover {
+  color: green;
 }

@@ -1,12 +1,5 @@
 import React, { Component } from "react";
 import "./Player.css";
-// import Davis from "../../assets/headshots/Davis.png";
-// import Gordon from "../../assets/headshots/Gordon.png";
-// import James from "../../assets/headshots/James.png";
-// import Leonard from "../../assets/headshots/Leonard.png";
-// import Lowry from "../../assets/headshots/Lowry.png";
-// import Russell from "../../assets/headshots/Russell.png";
-// import Siakam from "../../assets/headshots/Siakam.png";
 
 class Player extends Component {
   render() {
