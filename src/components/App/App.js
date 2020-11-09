@@ -38,7 +38,7 @@ class App extends Component {
         <div className="App">
           {isLoaded ? (
             <div className="progress">
-              <CircularProgress style={{ color: "blue" }} size={150} />
+              <CircularProgress style={{ color: "#f8f8f8", justifySelf: "center"}} size={150} />
             </div>
           ) : (
             this.state.players && <PlayerList data={this.state.players} />
