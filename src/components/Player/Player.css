@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  border: 1px red solid;
+}
+.Player {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  /* justify-items: center; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  padding: 0;
+  margin: 0;
+}
+
+.Player img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.Player div:nth-child(2),
+.Player div:nth-child(4) {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.name {
+  padding-top: 10px;
+}
+
+.points {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  height: 80px;
+  font-family: 'Aldrich', sans-serif;
+  padding: 5px 0 0 0;
+}
+
+.pointsCircle {
+  border: 1px #c1c1c1 solid;
+  border-radius: 50%;
+  padding: 12px 8px 3px 8px;
+  font-size: 26px;
+  font-weight: bolder;
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+  background-color: white;
+  color: #4A4A4A;
+}
+
+.pointsCircleBg {
+  border: 1px #c1c1c1 solid;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #f0f0f0;
+  z-index: 1;
+
+}
+
+
+.headshots {
+  width: 100px;
+  border-radius: 50%;
+  border: 4px white solid;
+  margin: auto;
+  background-color: #f0f0f0;
+}
+
+.Player:hover {
+  background-color: lightcyan;
+}
